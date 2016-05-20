@@ -3,14 +3,14 @@ public class BaseballSim {
 	
 	boolean	firstRunner = false;		//	一塁にランナーがいればtrue、いなければfalse。
 	boolean	secondRunner = false;		//	二塁にランナーがいればtrue、いなければfalse。
-	int inning = 1;		      				//	回数
-	int outCount = 0;				      	//	アウトカウント
-	int score = 0;					      	//	得点数
-	int totalScore = 0;				    	//	総得点数
-	int numTrial = 0;				      	//	これまで試行された回数
-	int outputCount = 1;			    	//	これまで試行された回数が、この値に等しくなったら途中経過を表示
-	int limit = 1000000;			    	//	試行回数の上限
-	double average = 0.3;				    //  打率	
+	int inning = 1;		      		//	イニング
+	int outCount = 0;			//	アウトカウント
+	int score = 0;				//	得点数
+	int totalScore = 0;			//	総得点数
+	int numTrial = 0;			//	これまで試行された回数
+	int outputCount = 1;			//	これまで試行された回数が、この値に等しくなったら途中経過を表示
+	int limit = 1000000;			//	試行回数の上限
+	double average = 0.3;			 //  打率	
 	
 	/** メインルーチン. */
 	public static void main( String[] args ){
